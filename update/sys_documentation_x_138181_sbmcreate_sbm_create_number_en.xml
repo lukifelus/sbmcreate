@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="number" label="Item_Id" language="en" table="x_138181_sbmcreate_sbm_create">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Item_Id</label>
+            <language>en</language>
+            <name>x_138181_sbmcreate_sbm_create</name>
+            <plural>Item_Ids</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 22:07:54</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>71795ae14fbe0300489678e18110c76d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Item_Id</sys_name>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_documentation_x_138181_sbmcreate_sbm_create_number_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 22:07:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

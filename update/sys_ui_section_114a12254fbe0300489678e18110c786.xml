@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="ユーザ" section_id="114a12254fbe0300489678e18110c786" sys_domain="global" table="x_138181_sbmcreate_sbm_create" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devleader</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>d0782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devmanager</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>54782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_developers</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>d4782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cm</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>58782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_when_closed</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>d8782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>5c782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devreadersub</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>dc782aa94fbe0300489678e18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devmanagersub</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>50782aa94fbe0300489678e18110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cmsub</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 23:13:20</sys_created_on>
+            <sys_id>d0782aa94fbe0300489678e18110c724</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザ" display_value="ユーザ" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">114a12254fbe0300489678e18110c786</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 23:13:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ユーザ</caption>
+            <header>false</header>
+            <name>x_138181_sbmcreate_sbm_create</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-02 22:11:25</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>114a12254fbe0300489678e18110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ユーザ</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_ui_section_114a12254fbe0300489678e18110c786</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-02 22:11:25</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
