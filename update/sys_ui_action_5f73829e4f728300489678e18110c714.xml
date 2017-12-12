@@ -22,14 +22,24 @@
         <onclick>onClick2()</onclick>
         <order>300</order>
         <script><![CDATA[function onClick2() {
-	var ga = new GlideAjax('HelloWorld');
-	ga.addParam('sysparm_name','helloWorld');
-	ga.addParam('sysparm_user_name',"Bob");
-	ga.getXML(HelloWorldParse);
+	//show a loading dialog box so that people will know that we are busy
+	showLoadingDialog();
+// 	alert('*TRACE1*');
+	//Set up the Server-Side function call to sending through the MID Server
+	var ga = new GlideAjax('CreatePackage1');
+	ga.addParam('sysparm_name','getRestMessage');
+	ga.addParam('sysparm_create_zdd_server',"ABCD");
+	ga.addParam('sysparm_create_zdd_change_man',"EFGH");
+	ga.addParam('sysparm_create_change_man_login',"B12345");
+	ga.addParam('sysparm_create_change_man_password',"password");
+	ga.addParam('sysparm_create_item_id',"20171208-002");
+	ga.getXML(parseQueryResponse);
 
-	function HelloWorldParse(response) {
-	   var answer = response.responseXML.documentElement.getAttribute("answer");
-	   alert(answer);
+	//Parses the asynchronous ajax response and show results as a dialog window
+	function parseQueryResponse(response) {
+		hideLoadingDialog();
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+	    alert(answer);
 	}
 }]]></script>
         <show_insert>true</show_insert>
@@ -43,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f73829e4f728300489678e18110c714</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>TEST2</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -52,7 +62,7 @@
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_5f73829e4f728300489678e18110c714</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-05 06:37:50</sys_updated_on>
+        <sys_updated_on>2017-12-12 06:54:44</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_create</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="sbm_package" max_length="40" name="x_138181_sbmcreate_sbm_package" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="ATLS" label="Application" max_length="40" name="u_application" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install From Time" max_length="40" name="u_install_from_time1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install To Time" max_length="40" name="u_install_to_time1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Package Level" max_length="40" name="u_pacakge_level" type="string">
+            <choice>
+                <element label="Simple" sequence="0" value="Simple"/>
+                <element label="Participaing" sequence="1" value="Participaing"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Package Level" max_length="40" name="u_package_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Package Promotion Site" max_length="40" name="u_package_promotion_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Package Title" max_length="40" name="u_package_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Planned/Permanent" label="Package Type" max_length="40" name="u_package_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Primary Contact" max_length="40" name="u_primary_contact1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Praimary Phone" max_length="40" name="u_primary_phone1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor Name" max_length="40" name="u_requestor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor Phone" max_length="40" name="u_requestor_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Request ID" max_length="40" name="u_work_request_id" type="string"/>
+    </element>
+</database>

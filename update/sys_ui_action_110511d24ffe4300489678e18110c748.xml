@@ -23,7 +23,7 @@
         <order>200</order>
         <script><![CDATA[function onClick() {
 	//show a loading dialog box so that people will know that we are busy
-	//showLoadingDialog();
+	showLoadingDialog();
 	
 	//Set up the Server-Side function call to sending through the MID Server
 	var ga = new GlideAjax('SendRestMessage');
@@ -33,7 +33,7 @@
 
 	//Parses the asynchronous ajax response and show results as a dialog window
 	function parseQueryResponse(response) {
-	//	hydeLoadingDialog();
+		hideLoadingDialog();
 		var answer = response.responseXML.documentElement.getAttribute("answer");
 	    alert(answer);
 	}
@@ -49,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>110511d24ffe4300489678e18110c748</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>TEST</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_110511d24ffe4300489678e18110c748</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-06 00:52:14</sys_updated_on>
+        <sys_updated_on>2017-12-06 05:38:32</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_create</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
