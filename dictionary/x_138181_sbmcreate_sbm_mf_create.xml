@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="sbm_mf_create" max_length="40" name="x_138181_sbmcreate_sbm_mf_create" sizeclass="7" type="collection">
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="構成管理担当" max_length="32" name="u_cm" read_only="true" reference="sys_user" type="reference"/>
+        <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="本番登録受付" max_length="40" name="u_devaccept" read_only="true" type="string"/>
+        <element label="本番移行日" max_length="40" name="u_devdeploydate" read_only="true" type="glide_date_time"/>
+        <element label="開発担当" max_length="32" name="u_developers" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発リーダー" max_length="32" name="u_devleader" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発リーダー(サブ)" max_length="32" name="u_devleadersub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発課長" max_length="32" name="u_devmanager" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発課長(サブ)" max_length="32" name="u_devmanagersub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="本番登録担当" max_length="32" name="u_devrec" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発依頼番号" max_length="12" name="u_devrequestno" read_only="true" type="string"/>
+        <element label="本番登録担当(サブ)" max_length="32" name="u_devsub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Close時メール配信先" max_length="40" name="u_email_when_closed" read_only="true" type="string"/>
+    </element>
+</database>

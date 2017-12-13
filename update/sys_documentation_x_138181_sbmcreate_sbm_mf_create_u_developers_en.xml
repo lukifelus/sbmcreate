@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_developers" label="開発担当" language="en" table="x_138181_sbmcreate_sbm_mf_create">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_developers</element>
+            <help/>
+            <hint/>
+            <label>開発担当</label>
+            <language>en</language>
+            <name>x_138181_sbmcreate_sbm_mf_create</name>
+            <plural>開発担当s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-13 15:01:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7571a90dbb4f470092a21272dbdb75a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>開発担当</sys_name>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_documentation_x_138181_sbmcreate_sbm_mf_create_u_developers_en</sys_update_name>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-13 15:01:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
