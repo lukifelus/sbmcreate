@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_mf_create" max_length="40" name="x_138181_sbmcreate_sbm_mf_create" sizeclass="7" type="collection">
+    <element extends="task" label="sbm_mf_create" max_length="40" name="x_138181_sbmcreate_sbm_mf_create" sizeclass="17" type="collection">
         <element label="Title" max_length="40" name="title" type="string"/>
         <element label="構成管理担当" max_length="32" name="u_cm" read_only="true" reference="sys_user" type="reference"/>
         <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" read_only="true" reference="sys_user" type="reference"/>
-        <element label="本番登録受付" max_length="40" name="u_devaccept" read_only="true" type="string"/>
+        <element default="ATLAS本番登録受付" label="本番登録受付" max_length="40" name="u_devaccept" read_only="true" type="string"/>
         <element label="本番移行日" max_length="40" name="u_devdeploydate" read_only="true" type="glide_date_time"/>
         <element label="開発担当" max_length="32" name="u_developers" read_only="true" reference="sys_user" type="reference"/>
         <element label="開発リーダー" max_length="32" name="u_devleader" read_only="true" reference="sys_user" type="reference"/>

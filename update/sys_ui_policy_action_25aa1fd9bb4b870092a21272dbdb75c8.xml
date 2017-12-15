@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>description</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>ibm_yue_y</sys_created_by>
+        <sys_created_on>2017-12-14 18:30:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>25aa1fd9bb4b870092a21272dbdb75c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_ui_policy_action_25aa1fd9bb4b870092a21272dbdb75c8</sys_update_name>
+        <sys_updated_by>ibm_yue_y</sys_updated_by>
+        <sys_updated_on>2017-12-14 18:30:06</sys_updated_on>
+        <table>x_138181_sbmcreate_sbm_package</table>
+        <ui_policy display_value="Read Only When State is planning">6b7adbd9bb4b870092a21272dbdb7557</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

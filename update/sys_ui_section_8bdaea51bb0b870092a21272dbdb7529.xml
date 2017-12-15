@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="ユーザー" section_id="8bdaea51bb0b870092a21272dbdb7529" sys_domain="global" table="x_138181_sbmcreate_sbm_package" version="3" view="commit">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devleader</element>
+            <position>0</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>c3daea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devmanager</element>
+            <position>1</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>47daea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_developers</element>
+            <position>2</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>c7daea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cm</element>
+            <position>3</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>4bdaea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devaccept</element>
+            <position>4</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>cbdaea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devrec</element>
+            <position>5</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>4fdaea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devdeploydate</element>
+            <position>6</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>cfdaea51bb0b870092a21272dbdb7567</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_when_closed</element>
+            <position>7</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>43daea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>c3daea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devleadersub</element>
+            <position>9</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>47daea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devmanagersub</element>
+            <position>10</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>c7daea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cmsub</element>
+            <position>11</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>4bdaea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_devsub</element>
+            <position>12</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>cbdaea51bb0b870092a21272dbdb7568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">8bdaea51bb0b870092a21272dbdb7529</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ユーザー</caption>
+            <header>false</header>
+            <name>x_138181_sbmcreate_sbm_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bdaea51bb0b870092a21272dbdb7529</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ユーザー</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_ui_section_8bdaea51bb0b870092a21272dbdb7529</sys_update_name>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="commit" name="commit">b2daea51bb0b870092a21272dbdb7525</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="システム" section_id="43daea51bb0b870092a21272dbdb752a" sys_domain="global" table="x_138181_sbmcreate_sbm_package" version="3" view="commit">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zmf_application</element>
+            <position>0</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>cfdaea51bb0b870092a21272dbdb756e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">43daea51bb0b870092a21272dbdb752a</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zdd_changeman</element>
+            <position>1</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>43daea51bb0b870092a21272dbdb756f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">43daea51bb0b870092a21272dbdb752a</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>c3daea51bb0b870092a21272dbdb756f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">43daea51bb0b870092a21272dbdb752a</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zdd_server</element>
+            <position>3</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_id>47daea51bb0b870092a21272dbdb756f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="システム" display_value="システム" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">43daea51bb0b870092a21272dbdb752a</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>システム</caption>
+            <header>false</header>
+            <name>x_138181_sbmcreate_sbm_package</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 15:01:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43daea51bb0b870092a21272dbdb752a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>システム</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_ui_section_43daea51bb0b870092a21272dbdb752a</sys_update_name>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 15:01:07</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="commit" name="commit">b2daea51bb0b870092a21272dbdb7525</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

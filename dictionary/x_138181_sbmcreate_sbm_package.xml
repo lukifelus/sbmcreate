@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_package" max_length="40" name="x_138181_sbmcreate_sbm_package" sizeclass="1" type="collection">
+    <element extends="task" label="sbm_package" max_length="40" name="x_138181_sbmcreate_sbm_package" sizeclass="10" type="collection">
+        <element label="ChangeMan Login" mandatory="true" max_length="40" name="changeman_login" type="string"/>
+        <element label="ChangeMan Package ID" max_length="40" name="changeman_package_id" type="string"/>
+        <element label="ChangeMan Password" mandatory="true" max_length="40" name="changeman_password" type="password"/>
+        <element default="CMNU" label="ChangeMan Server" max_length="40" name="changeman_server" type="string"/>
+        <element label="Item Id" max_length="40" name="item" read_only="true" type="string"/>
+        <element label="Reasons for Back Out" max_length="40" name="reasons_for_back_out" type="string"/>
+        <element label="Reasons for Reject" max_length="40" name="reasons_for_reject" type="string"/>
+        <element label="Reasons for Revert" max_length="40" name="reasons_for_revert" type="string"/>
+        <element label="サブタスク" max_length="40" name="sub_task" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="ATLS" label="Application" max_length="40" name="u_application" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone1" type="string"/>
+        <element label="構成管理担当" max_length="32" name="u_cm" read_only="true" reference="sys_user" type="reference"/>
+        <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" read_only="true" reference="sys_user" type="reference"/>
+        <element default="ATLAS本番登録受付" label="本番登録受付" max_length="40" name="u_devaccept" read_only="true" type="string"/>
+        <element label="本番移行日" max_length="40" name="u_devdeploydate" read_only="true" type="glide_date_time"/>
+        <element label="開発担当" max_length="32" name="u_developers" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発リーダー" max_length="32" name="u_devleader" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発リーダー(サブ)" max_length="32" name="u_devleadersub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発課長" max_length="32" name="u_devmanager" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発課長(サブ)" max_length="32" name="u_devmanagersub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="本番登録担当" max_length="32" name="u_devrec" read_only="true" reference="sys_user" type="reference"/>
+        <element label="開発依頼番号" max_length="40" name="u_devrequestno" type="string"/>
+        <element label="本番登録担当(サブ)" max_length="32" name="u_devsub" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Close時メール配信先" max_length="40" name="u_email_when_closed" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Install From Time" max_length="40" name="u_install_from_time1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date" type="string"/>
@@ -17,12 +39,15 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Package Level" max_length="40" name="u_package_level" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Package Promotion Site" max_length="40" name="u_package_promotion_site" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Package Title" max_length="40" name="u_package_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="u_package_title" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="Planned/Permanent" label="Package Type" max_length="40" name="u_package_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Primary Contact" max_length="40" name="u_primary_contact1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Praimary Phone" max_length="40" name="u_primary_phone1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requestor Name" max_length="40" name="u_requestor_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requestor Phone" max_length="40" name="u_requestor_phone" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Work Request ID" max_length="40" name="u_work_request_id" type="string"/>
+        <element default="CMNU" label="ZDD ChangeMan" max_length="40" name="zdd_changeman" read_only="true" type="string"/>
+        <element default="SERU" label="ZDD Server" max_length="40" name="zdd_server" read_only="true" type="string"/>
+        <element default="ATLU" label="ZMF Application" max_length="40" name="zmf_application" read_only="true" type="string"/>
     </element>
 </database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_create" max_length="40" name="x_138181_sbmcreate_sbm_create" sizeclass="9" type="collection">
+    <element extends="task" label="sbm_create" max_length="40" name="x_138181_sbmcreate_sbm_create" sizeclass="14" type="collection">
         <element label="構成管理担当" mandatory="true" max_length="32" name="u_cm" reference="sys_user" type="reference"/>
         <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" reference="sys_user" type="reference"/>
         <element label="開発担当" max_length="32" name="u_developers" reference="sys_user" type="reference"/>

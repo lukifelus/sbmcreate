@@ -11,23 +11,65 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_138181_sbmcreate_sbm_package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">7deeef764f320300489678e18110c767</sys_ui_form>
-            <sys_ui_section caption="Create ChangeMan Package" display_value="Create ChangeMan Package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">318ceb364f320300489678e18110c7cd</sys_ui_section>
+            <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">318ceb364f320300489678e18110c7cd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-12-07 01:33:36</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-07 01:33:36</sys_created_on>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 11:12:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bdeeef764f320300489678e18110c76a</sys_id>
+            <sys_id>ec963dd5bb87870092a21272dbdb750e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_138181_sbmcreate_sbm_package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">7deeef764f320300489678e18110c767</sys_ui_form>
+            <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">2c963dd5bb87870092a21272dbdb750b</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 11:12:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 12:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c434a5dbb87870092a21272dbdb757b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_138181_sbmcreate_sbm_package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">7deeef764f320300489678e18110c767</sys_ui_form>
-            <sys_ui_section caption="Site Information" display_value="Site Information" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">31eeef764f320300489678e18110c767</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-07 01:33:36</sys_updated_on>
+            <sys_ui_section caption="ユーザー" display_value="ユーザー" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">77334a5dbb87870092a21272dbdb7578</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 12:08:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 12:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04434a5dbb87870092a21272dbdb7580</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_138181_sbmcreate_sbm_package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">7deeef764f320300489678e18110c767</sys_ui_form>
+            <sys_ui_section caption="システム" display_value="システム" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">3f334a5dbb87870092a21272dbdb7578</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 12:08:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 12:08:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0434a5dbb87870092a21272dbdb7585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_138181_sbmcreate_sbm_package" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">7deeef764f320300489678e18110c767</sys_ui_form>
+            <sys_ui_section caption="サブタスク" display_value="サブタスク" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="Default view">f3334a5dbb87870092a21272dbdb7579</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 12:08:03</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_138181_sbmcreate_sbm_package</name>
@@ -39,7 +81,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7deeef764f320300489678e18110c767</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>x_138181_sbmcreate_sbm_package</sys_name>
             <sys_overrides/>
             <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -47,8 +89,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
             <sys_update_name>sys_ui_form_sections_7deeef764f320300489678e18110c767</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-07 01:33:36</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 12:08:03</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

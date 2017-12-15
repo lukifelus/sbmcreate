@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="reasons_for_reject" label="Reasons for Reject" language="en" table="x_138181_sbmcreate_sbm_package">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>reasons_for_reject</element>
+            <help/>
+            <hint/>
+            <label>Reasons for Reject</label>
+            <language>en</language>
+            <name>x_138181_sbmcreate_sbm_package</name>
+            <plural>Reasons for Rejects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-14 10:20:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d0aaa111bb87870092a21272dbdb75f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reasons for Reject</sys_name>
+            <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+            <sys_update_name>sys_documentation_x_138181_sbmcreate_sbm_package_reasons_for_reject_en</sys_update_name>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-14 10:20:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

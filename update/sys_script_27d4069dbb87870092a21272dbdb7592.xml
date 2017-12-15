@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>true</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_138181_sbmcreate_sbm_package</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>get parent filed value from sbm_mf</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var p_mf_item = new GlideRecord('x_138181_sbmcreate_sbm_mf_create');
+	p_mf_item.addQuery('sys_id',current.parent);
+	p_mf_item.query();
+	if(p_mf_item.next()){
+		//Item Id
+		current.setValue('item',p_mf_item.getValue('number'));
+		//Title
+		current.setValue('u_package_title',p_mf_item.getValue('title'));
+		//State
+		current.setValue('state',p_mf_item.getValue('state'));
+		//Description
+		current.setValue('description',p_mf_item.getValue('description'));
+			
+		//開発依頼番号
+		current.setValue('u_devrequestno',p_mf_item.getValue('u_devrequestno'));
+		//開発リーダー
+		current.u_devleader.setDisplayValue(p_mf_item.getDisplayValue('u_devleader'));
+		//開発リーダー(サブ)
+		current.u_devleadersub.setDisplayValue(p_mf_item.getDisplayValue('u_devleadersub'));
+		//開発課長
+		current.u_devmanager.setDisplayValue(p_mf_item.getDisplayValue('u_devmanager'));
+		//開発課長(サブ)
+		current.u_devmanagersub.setDisplayValue(p_mf_item.getDisplayValue('u_devmanagersub'));
+		//開発担当
+		current.u_developers.setDisplayValue(p_mf_item.getDisplayValue('u_developers'));
+		//構成管理担当
+		current.u_cm.setDisplayValue(p_mf_item.getDisplayValue('u_cm'));
+		//構成管理担当(サブ)
+		current.u_cmsub.setDisplayValue(p_mf_item.getDisplayValue('u_cmsub'));	
+		//本番登録担当
+		current.u_devrec.setDisplayValue(p_mf_item.getDisplayValue('u_devrec'));	
+		//本番登録担当(サブ)
+		current.u_devsub.setDisplayValue(p_mf_item.getDisplayValue('u_devsub'));	
+		//本番移行日
+		current.u_devdeploydate.setDisplayValue(p_mf_item.getDisplayValue('u_devdeploydate'));
+		//Close時メール配信先
+		current.u_email_when_closed.setDisplayValue(p_mf_item.getDisplayValue('u_email_when_closed'));
+		//サブタスク
+		var p_item = new GlideRecord('x_138181_sbmcreate_sbm_create');
+		p_item.addQuery('sys_id',p_mf_item.parent);
+		p_item.query();
+		if(p_item.next()){
+			current.sub_task.setValue(p_item.getDisplayValue('number') + ':' + p_item.getDisplayValue('u_string_1'));
+		}
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ibm_yue_y</sys_created_by>
+        <sys_created_on>2017-12-14 12:18:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27d4069dbb87870092a21272dbdb7592</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>get parent filed value from sbm_mf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_script_27d4069dbb87870092a21272dbdb7592</sys_update_name>
+        <sys_updated_by>ibm_yue_y</sys_updated_by>
+        <sys_updated_on>2017-12-14 15:14:56</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=27d4069dbb87870092a21272dbdb7592"/>
+</record_update>
