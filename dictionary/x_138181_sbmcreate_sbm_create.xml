@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_create" max_length="40" name="x_138181_sbmcreate_sbm_create" sizeclass="14" type="collection">
+    <element audit="true" extends="task" label="sbm_create" max_length="40" name="x_138181_sbmcreate_sbm_create" sizeclass="29" type="collection">
         <element label="構成管理担当" mandatory="true" max_length="32" name="u_cm" reference="sys_user" type="reference"/>
         <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" reference="sys_user" type="reference"/>
         <element label="開発担当" max_length="32" name="u_developers" reference="sys_user" type="reference"/>
@@ -8,7 +8,7 @@
         <element label="開発課長" mandatory="true" max_length="32" name="u_devmanager" reference="sys_user" type="reference"/>
         <element label="開発課長(サブ)" max_length="32" name="u_devmanagersub" reference="sys_user" type="reference"/>
         <element label="開発リーダー(サブ)" max_length="32" name="u_devreadersub" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="枝番号" mandatory="true" max_length="40" name="u_devrequestbrno" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="枝番号" mandatory="true" max_length="3" name="u_devrequestbrno" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="副開発依頼番号1" max_length="40" name="u_devrequestid_sub1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="開発依頼番号" mandatory="true" max_length="8" name="u_devrequestno" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="副開発依頼番号11" max_length="40" name="u_devrequestno11" type="string"/>

@@ -12,22 +12,22 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>createPackage1 [ get ]</qualified_name>
-        <rest_endpoint>http://localhost:9080/Serena/ssz_createPackage1?ZddServer=${ZddServer}&amp;ZddChangeMan=${ZddChangeMan}&amp;ChangeManLogin=${ChangeManLogin}&amp;ChangeManPassword=${ChangeManPassword}&amp;ItemId=${ItemId}</rest_endpoint>
+        <rest_endpoint>https://ss9vsr11:9443/Serena/ssz_createPackage1?ZddServer=${ZddServer}&amp;ZddChangeMan=${ZddChangeMan}&amp;ChangeManLogin=${ChangeManLogin}&amp;ChangeManPassword=${ChangeManPassword}&amp;ItemId=${ItemId}</rest_endpoint>
         <rest_message display_value="createPackage1">806ba7d64fb68300489678e18110c722</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-05 12:02:37</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>e8bb2f564fb68300489678e18110c753</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>get</sys_name>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_rest_message_fn_e8bb2f564fb68300489678e18110c753</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-11 02:10:53</sys_updated_on>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-15 02:40:27</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

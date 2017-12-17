@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">c52b0475bbc3c70092a21272dbdb750c</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2017-12-15 16:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_widget>
+        <posx>3</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>ibm_yue_y</sys_created_by>
+        <sys_created_on>2017-12-15 16:42:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>238b44b5bbc3c70092a21272dbdb75e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>c52b0475bbc3c70092a21272dbdb750c</sys_name>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_238b44b5bbc3c70092a21272dbdb75e8</sys_update_name>
+        <sys_updated_by>ibm_yue_y</sys_updated_by>
+        <sys_updated_on>2017-12-15 16:42:42</sys_updated_on>
+        <width>3</width>
+    </sys_grid_canvas_pane>
+</record_update>

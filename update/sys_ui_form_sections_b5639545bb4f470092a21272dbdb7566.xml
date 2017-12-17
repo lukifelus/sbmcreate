@@ -43,6 +43,20 @@
             <sys_updated_by>ibm_yue_y</sys_updated_by>
             <sys_updated_on>2017-12-13 14:00:32</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:01:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4d7d9921bb8f870092a21272dbdb75d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_138181_sbmcreate_sbm_mf_create" name="x_138181_sbmcreate_sbm_mf_create" sys_domain="global" view="Default view">b5639545bb4f470092a21272dbdb7566</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_138181_sbmcreate_sbm_mf_create" sys_domain="global" view="Default view">8d7d9921bb8f870092a21272dbdb75cd</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:01:24</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_138181_sbmcreate_sbm_mf_create</name>
             <roles/>

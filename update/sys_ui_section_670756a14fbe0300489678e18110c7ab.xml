@@ -2,114 +2,128 @@
 <record_update>
     <sys_ui_section caption="標準" section_id="670756a14fbe0300489678e18110c7ab" sys_domain="global" table="x_138181_sbmcreate_sbm_create" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>process_flow.xml</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>b7d17ead4fbe0300489678e18110c72f</sys_id>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>bdfd5161bb8f870092a21272dbdb75e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">f812d569bb4f870092a21272dbdb75d7</sys_ui_formatter>
+            <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>35fd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_string_1</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>3bd17ead4fbe0300489678e18110c72f</sys_id>
+            <position>2</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>b5fd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>bbd17ead4fbe0300489678e18110c72f</sys_id>
+            <position>3</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>39fd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_devrequestno</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>3fd17ead4fbe0300489678e18110c72f</sys_id>
+            <position>4</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>b9fd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_devrequestbrno</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>bfd17ead4fbe0300489678e18110c72f</sys_id>
+            <position>5</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>3dfd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_devrequestno_h</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>33d17ead4fbe0300489678e18110c730</sys_id>
+            <position>6</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>bdfd5161bb8f870092a21272dbdb75e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_devrequestno_n</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>b3d17ead4fbe0300489678e18110c730</sys_id>
+            <position>7</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>31fd5161bb8f870092a21272dbdb75e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-12-02 23:54:32</sys_created_on>
-            <sys_id>37d17ead4fbe0300489678e18110c730</sys_id>
+            <position>8</position>
+            <sys_created_by>ibm_yue_y</sys_created_by>
+            <sys_created_on>2017-12-15 04:03:39</sys_created_on>
+            <sys_id>b1fd5161bb8f870092a21272dbdb75e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="標準" display_value="標準" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">670756a14fbe0300489678e18110c7ab</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -125,7 +139,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>670756a14fbe0300489678e18110c7ab</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_name>標準</sys_name>
             <sys_overrides/>
             <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -133,8 +147,8 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
             <sys_update_name>sys_ui_section_670756a14fbe0300489678e18110c7ab</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-12-02 23:54:32</sys_updated_on>
+            <sys_updated_by>ibm_yue_y</sys_updated_by>
+            <sys_updated_on>2017-12-15 04:03:39</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

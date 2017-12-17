@@ -4,7 +4,7 @@
         <action_name>sysverb_insert</action_name>
         <active>true</active>
         <client>false</client>
-        <comments>Saves a new record and redirects to current screen.</comments>
+        <comments>Save or update record and redirects to current screen.</comments>
         <condition>current.canCreate()&amp;&amp;current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -23,11 +23,19 @@
         <order>-100</order>
         <script><![CDATA[action.setRedirectURL(current);
 current.state = '2';
-answer = current.insert();
-gs.eventQueue("x_138181_sbmcreate.poc_newpoc_item_new",null);
-gs.include('ActionUtils');
-var au = new ActionUtils();
-au.postInsert(current);
+//answer = current.update();
+//if(current.canCreate()&&current.isNewRecord()){
+	answer = current.insert();
+	gs.include('ActionUtils');
+	var au = new ActionUtils();
+	au.postInsert(current);
+//}else if(current.isValidRecord() && current.canWrite() && gs.getProperty('glide.ui.update_is_submit') != 'true'){
+//	answer = current.update();
+//}
+//gs.eventQueue("x_138181_sbmcreate.poc_newpoc_item_new",null);
+
+
+
 
 
 
@@ -43,7 +51,7 @@ au.postInsert(current);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0c877b8bb8b470092a21272dbdb7586</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>OK</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -52,7 +60,7 @@ au.postInsert(current);
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_c0c877b8bb8b470092a21272dbdb7586</sys_update_name>
         <sys_updated_by>ibm_yue_y</sys_updated_by>
-        <sys_updated_on>2017-12-14 18:16:56</sys_updated_on>
+        <sys_updated_on>2017-12-15 15:42:42</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_create</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

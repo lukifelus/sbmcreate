@@ -10,13 +10,13 @@
         <name>createPackage1</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>http://ss9vsr11:9443/Serena/ssz_createPackage1?ZddServer=${ZddServer}&amp;ZddChangeMan=${ZddChangeMan}&amp;ChangeManLogin=${ChangeManLogin}&amp;ChangeManPassword=${ChangeManPassword}&amp;ItemId=${ItemId}</rest_endpoint>
+        <rest_endpoint>https://ss9vsr11:9443/Serena/ssz_createPackage1?ZddServer=${ZddServer}&amp;ZddChangeMan=${ZddChangeMan}&amp;ChangeManLogin=${ChangeManLogin}&amp;ChangeManPassword=${ChangeManPassword}&amp;ItemId=${ItemId}</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-05 12:02:37</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>806ba7d64fb68300489678e18110c722</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>createPackage1</sys_name>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
         <sys_policy/>
@@ -24,7 +24,7 @@
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_rest_message_806ba7d64fb68300489678e18110c722</sys_update_name>
         <sys_updated_by>ibm_ban_ta</sys_updated_by>
-        <sys_updated_on>2017-12-14 04:23:36</sys_updated_on>
+        <sys_updated_on>2017-12-15 02:39:11</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>
