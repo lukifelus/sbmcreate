@@ -2,72 +2,72 @@
 <record_update>
     <sys_ui_section caption="ChangeMan" section_id="c3daea51bb0b870092a21272dbdb7529" sys_domain="global" table="x_138181_sbmcreate_sbm_package" version="3" view="commit">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_devrequestno</element>
+            <element>u_devrequest_no</element>
             <position>0</position>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-14 17:02:54</sys_created_on>
-            <sys_id>f2b68b11bb4b870092a21272dbdb75c9</sys_id>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-17 01:30:14</sys_created_on>
+            <sys_id>d60e03cebbcfc70092a21272dbdb75a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">c3daea51bb0b870092a21272dbdb7529</sys_ui_section>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-14 17:02:54</sys_updated_on>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-17 01:30:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>changeman_server</element>
+            <element>u_change_man_server</element>
             <position>1</position>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-14 17:02:54</sys_created_on>
-            <sys_id>76b68b11bb4b870092a21272dbdb75c9</sys_id>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-17 01:30:14</sys_created_on>
+            <sys_id>9e0e03cebbcfc70092a21272dbdb75a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">c3daea51bb0b870092a21272dbdb7529</sys_ui_section>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-14 17:02:54</sys_updated_on>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-17 01:30:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>changeman_package_id</element>
+            <element>u_change_man_package_id</element>
             <position>2</position>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-14 17:02:54</sys_created_on>
-            <sys_id>f6b68b11bb4b870092a21272dbdb75c9</sys_id>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-17 01:30:14</sys_created_on>
+            <sys_id>120e03cebbcfc70092a21272dbdb75a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">c3daea51bb0b870092a21272dbdb7529</sys_ui_section>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-14 17:02:54</sys_updated_on>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-17 01:30:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>changeman_login</element>
+            <element>u_change_man_login</element>
             <position>3</position>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-14 17:02:54</sys_created_on>
-            <sys_id>7ab68b11bb4b870092a21272dbdb75c9</sys_id>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-17 01:30:14</sys_created_on>
+            <sys_id>920e03cebbcfc70092a21272dbdb75a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">c3daea51bb0b870092a21272dbdb7529</sys_ui_section>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-14 17:02:54</sys_updated_on>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-17 01:30:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>changeman_password</element>
+            <element>u_change_man_password</element>
             <position>4</position>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-14 17:02:54</sys_created_on>
-            <sys_id>fab68b11bb4b870092a21272dbdb75c9</sys_id>
+            <sys_created_by>ibm_ban_ta</sys_created_by>
+            <sys_created_on>2017-12-17 01:30:14</sys_created_on>
+            <sys_id>160e03cebbcfc70092a21272dbdb75a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="ChangeMan" display_value="ChangeMan" name="x_138181_sbmcreate_sbm_package" sys_domain="global" view="b2daea51bb0b870092a21272dbdb7525">c3daea51bb0b870092a21272dbdb7529</sys_ui_section>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-14 17:02:54</sys_updated_on>
+            <sys_updated_by>ibm_ban_ta</sys_updated_by>
+            <sys_updated_on>2017-12-17 01:30:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

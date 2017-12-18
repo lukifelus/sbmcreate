@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_138181_sbmcreate.CreatePackage1</api_name>
+        <client_callable>true</client_callable>
+        <description>AppScript CreatePackage1起動</description>
+        <name>CreatePackage1</name>
+        <script><![CDATA[var CreatePackage1 = Class.create();
+CreatePackage1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getRestMessage: function() {
+// 		gs.info("*TRACE* CreatePackage1 Start");
+		var requestBody;
+		var responseBody;
+		var status;
+		var sm;
+		var obj;
+		try{
+			sm = new sn_ws.RESTMessageV2("createPackage1", "get");
+			sm.setBasicAuth("ibm_ban_t","aflacgmt");
+			sm.setStringParameter("ZddServer",this.getParameter('sysparm_zdd_server'));
+			sm.setStringParameter("ZddChangeMan",this.getParameter('sysparm_zdd_change_man'));
+			sm.setStringParameter("ChangeManLogin",this.getParameter('sysparm_change_man_login'));
+			sm.setStringParameter("ChangeManPassword",this.getParameter('sysparm_change_man_password'));
+			sm.setStringParameter("ItemID",this.getParameter('sysparm_item_id'));
+			sm.setMIDServer('MIDServer1');
+			response = sm.execute();
+			response.waitForResponse(20);
+			responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+			status = response.getStatusCode();
+			
+			//JSON String Representation of siteName
+			obj = parser.decode(responseBody);
+			gs.info('obj.service.scope[0].message[0].result[0].siteName=' + obj.service.scope[0].message[0].result[0].siteName);
+			gs.info('obj.service.scope[0].message[0].result[1].siteName=' + obj.service.scope[0].message[0].result[1].siteName);
+
+			var rec = new GlideRecord('x_138181_sbmcreate_sbm_cache') ;
+			rec.initialize();
+			rec.u_work_request_id = this.getParameter('sysparm_item_id'); 
+			rec.u_site_name_1 = obj.service.scope[0].message[0].result[0].siteName;
+			rec.u_site_name_2 = obj.service.scope[0].message[0].result[1].siteName;
+			rec.insert();
+			
+		} catch(ex) {
+			responseBody = ex.getMessage();
+			gs.info("Request Body: " + requestBody);
+			status = '500';
+		} finally {
+			requestBody = sm ? sm.getRequestBody():null;
+		}
+		gs.info("Request Body: " + requestBody);
+		gs.info("Response: " + responseBody);
+		gs.info("HTTP Status: " + status);
+		
+//		return responseBody;
+		return "*TRACE*Create Package1 Ended.Response: "+　responseBody;
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ibm_ban_ta</sys_created_by>
+        <sys_created_on>2017-12-17 01:05:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6436c7cabbcfc70092a21272dbdb75c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CreatePackage1</sys_name>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy>protected</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_script_include_6436c7cabbcfc70092a21272dbdb75c1</sys_update_name>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-17 09:13:10</sys_updated_on>
+    </sys_script_include>
+</record_update>

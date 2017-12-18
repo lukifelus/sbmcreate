@@ -13,6 +13,14 @@
         <element attributes="edge_encryption_enabled=true" default="ATLS" label="Application" max_length="40" name="u_application" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ChangeMan Login" mandatory="true" max_length="40" name="u_change_man_login" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ChangeMan Pckage Id" mandatory="true" max_length="40" name="u_change_man_package_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ChangeMan Password" mandatory="true" max_length="40" name="u_change_man_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="CMNU" label="ChangeMan Server" mandatory="true" max_length="40" name="u_change_man_server" type="string">
+            <choice>
+                <element label="CMNU - A04 0 ATLAS/DAL DP" sequence="0" value="CMNU"/>
+            </choice>
+        </element>
         <element label="構成管理担当" max_length="32" name="u_cm" read_only="true" reference="sys_user" type="reference"/>
         <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" read_only="true" reference="sys_user" type="reference"/>
         <element default="ATLAS本番登録受付" label="本番登録受付" max_length="40" name="u_devaccept" read_only="true" type="string"/>
@@ -24,6 +32,7 @@
         <element label="開発課長(サブ)" max_length="32" name="u_devmanagersub" read_only="true" reference="sys_user" type="reference"/>
         <element label="本番登録担当" max_length="32" name="u_devrec" read_only="true" reference="sys_user" type="reference"/>
         <element label="開発依頼番号" max_length="40" name="u_devrequestno" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="開発依頼番号" max_length="40" name="u_devrequest_no" type="string"/>
         <element label="本番登録担当(サブ)" max_length="32" name="u_devsub" read_only="true" reference="sys_user" type="reference"/>
         <element label="Close時メール配信先" max_length="40" name="u_email_when_closed" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Install From Time" max_length="40" name="u_install_from_time1" type="string"/>

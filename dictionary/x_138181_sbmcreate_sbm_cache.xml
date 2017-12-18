@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="sbm_cache" max_length="40" name="x_138181_sbmcreate_sbm_cache" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="ATLS" label="Application" max_length="40" name="u_application" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0000" label="Install From Time" max_length="40" name="u_install_from_time_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0000" label="Install From Time" max_length="40" name="u_install_from_time_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="23:59" label="Install To Time" max_length="40" name="u_install_to_time" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="2359" label="Install To Time" max_length="40" name="u_install_to_time_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Simple" label="Package Level" max_length="40" name="u_package_level" type="string">
+            <choice>
+                <element label="Simple" sequence="0" value="Simple"/>
+                <element label="Participaing" sequence="1" value="Participaing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Package Promotion Site" max_length="40" name="u_package_promotion_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Package Title" max_length="40" name="u_package_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="Planned/Permanent" label="Package Type" max_length="40" name="u_package_type" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Praimary Contact" max_length="40" name="u_praimary_contact_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Primary Phone" max_length="40" name="u_praimary_phone_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Praimary Phone" max_length="40" name="u_praimary_phone_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Praimary Contact" max_length="40" name="u_primary_contact_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requester Name" max_length="40" name="u_requester_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requester Phone" max_length="40" name="u_requester_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SiteName" max_length="40" name="u_site_name_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Site Name" max_length="40" name="u_site_name_2" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Request ID" max_length="40" name="u_work_request_id" read_only="true" type="string"/>
+    </element>
+</database>

@@ -3,8 +3,8 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>false</client>
-        <comments/>
+        <client>true</client>
+        <comments>Create Package1 を起動するボタン</comments>
         <condition>current.isValidRecord() &amp;&amp; current.canWrite()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
@@ -19,9 +19,31 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <name>Create Package</name>
-        <onclick/>
+        <onclick>createPackage1Kick()</onclick>
         <order>400</order>
-        <script><![CDATA[action.setRedirectURL("x_138181_sbmcreate_sbm_package.do?sys_id=" + current.sys_id + "&sysparm_view=commit&sysparm_view_forced=true");]]></script>
+        <script><![CDATA[function createPackage1Kick() {
+	//show a loading dialog box so that people will know that we are busy
+	showLoadingDialog();
+	//alert('*TRACE* CreatePackage Start');
+	//Set up the Server-Side function call to sending through the MID Server
+	var ga = new GlideAjax('CreatePackage1');
+	ga.addParam('sysparm_name','getRestMessage');
+	ga.addParam('sysparm_zdd_server',g_form.getValue('u_change_man_server'));
+	ga.addParam('sysparm_zdd_change_man',g_form.getValue('u_change_man_package_id'));
+	ga.addParam('sysparm_change_man_login',g_form.getValue('u_change_man_login'));
+	ga.addParam('sysparm_change_man_password',g_form.getValue('u_change_man_password'));
+	ga.addParam('sysparm_item_id',g_form.getValue('u_devrequest_no'));
+	ga.getXML(parseQueryResponse);
+
+	//Parses the asynchronous ajax response and show results as a dialog window
+	function parseQueryResponse(response) {
+		hideLoadingDialog();
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+	    alert(answer);
+	}
+}
+
+// action.setRedirectURL("x_138181_sbmcreate_sbm_package.do?sys_id=" + current.sys_id + "&sysparm_view=commit&sysparm_view_forced=true");]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -33,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4fda03d1bb4b870092a21272dbdb756b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Create Package</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -41,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_4fda03d1bb4b870092a21272dbdb756b</sys_update_name>
-        <sys_updated_by>ibm_yue_y</sys_updated_by>
-        <sys_updated_on>2017-12-14 17:32:48</sys_updated_on>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-17 01:40:53</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_package</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
