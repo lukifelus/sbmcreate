@@ -30,7 +30,7 @@ action.setRedirectURL("x_138181_sbmcreate_sbm_package.do?sys_id=" + current.sys_
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-14 13:42:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75a81259bbc7870092a21272dbdb751b</sys_id>

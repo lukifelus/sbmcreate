@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ibm_ban_ta</sys_created_by>
             <sys_created_on>2017-12-17 06:21:28</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>14b01c1ebb430b0092a21272dbdb7540</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sbm_cache</sys_name>

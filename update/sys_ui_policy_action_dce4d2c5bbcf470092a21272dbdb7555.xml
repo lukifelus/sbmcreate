@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-13 18:46:52</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>dce4d2c5bbcf470092a21272dbdb7555</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_string_1</sys_name>

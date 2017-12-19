@@ -25,7 +25,7 @@
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>ibm_yue_y</sys_created_by>
             <sys_created_on>2017-12-13 14:28:25</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>d6c9d9c5bb4f470092a21272dbdb7590</sys_id>

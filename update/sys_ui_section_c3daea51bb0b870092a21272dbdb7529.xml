@@ -79,7 +79,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>ibm_yue_y</sys_created_by>
             <sys_created_on>2017-12-14 15:01:07</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c3daea51bb0b870092a21272dbdb7529</sys_id>

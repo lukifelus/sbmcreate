@@ -79,7 +79,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-14 12:18:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>27d4069dbb87870092a21272dbdb7592</sys_id>

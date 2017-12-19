@@ -11,7 +11,7 @@
         <name>SBM</name>
         <no_tabs>false</no_tabs>
         <order/>
-        <owner display_value="Ｙｕｅ Ｙｕｎｂｏ">db1d6c93bb7a830092a21272dbdb7523</owner>
+        <owner display_value="">db1d6c93bb7a830092a21272dbdb7523</owner>
         <restrict_to_roles/>
         <role_override>true</role_override>
         <roles/>
@@ -19,7 +19,7 @@
         <sys_class_name>pa_dashboards</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-15 16:40:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>721b04b5bbc3c70092a21272dbdb7593</sys_id>

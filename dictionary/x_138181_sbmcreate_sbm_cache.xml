@@ -27,7 +27,7 @@
         <element attributes="edge_encryption_enabled=true" label="Praimary Contact" max_length="40" name="u_primary_contact_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requester Name" max_length="40" name="u_requester_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requester Phone" max_length="40" name="u_requester_phone" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="SiteName" max_length="40" name="u_site_name_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Site Name" max_length="40" name="u_site_name_1" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Site Name" max_length="40" name="u_site_name_2" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Work Request ID" max_length="40" name="u_work_request_id" read_only="true" type="string"/>
     </element>

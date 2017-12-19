@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ibm_yue_y</sys_created_by>
             <sys_created_on>2017-12-14 10:52:09</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>c8e1b155bb87870092a21272dbdb758e</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>ZMF Application</sys_name>

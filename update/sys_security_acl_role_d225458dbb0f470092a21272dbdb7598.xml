@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-13 12:58:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d225458dbb0f470092a21272dbdb7598</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_138181_sbmcreate_sbm_mf_create.x_138181_sbmcreate.sbm_mf_create_user</sys_name>

@@ -3,13 +3,13 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">c52b0475bbc3c70092a21272dbdb750c</grid_canvas>
         <height>10</height>
-        <portal_widget display_value="Created 2017-12-15 16:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_widget>
+        <portal_widget display_value="Created 2017-12-16 01:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-15 16:40:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e13b84b5bbc3c70092a21272dbdb7521</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name>c52b0475bbc3c70092a21272dbdb750c</sys_name>

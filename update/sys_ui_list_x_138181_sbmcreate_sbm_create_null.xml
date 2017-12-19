@@ -4,92 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>c2ee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>56e53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>46ee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>d6e53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>c6ee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>5ae53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>assigned_to</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>4aee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>dae53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>caee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>5ee53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_class_name</element>
-            <list_id display_value="x_138181_sbmcreate_sbm_create" element="NULL" name="x_138181_sbmcreate_sbm_create" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">4eee1d61bb8f870092a21272dbdb75ea</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ee53be64f620300489678e18110c7aa</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>ibm_yue_y</sys_created_by>
-            <sys_created_on>2017-12-15 04:07:45</sys_created_on>
-            <sys_id>4eee1d61bb8f870092a21272dbdb75eb</sys_id>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-11-23 21:10:02</sys_created_on>
+            <sys_id>dee53be64f620300489678e18110c7ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ibm_yue_y</sys_updated_by>
-            <sys_updated_on>2017-12-15 04:07:45</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-11-23 21:10:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -104,7 +104,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>ibm_ban_ta</sys_created_by>
             <sys_created_on>2017-12-13 23:14:47</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e4421b45bb43870092a21272dbdb75a0</sys_id>
@@ -117,7 +117,7 @@
             <sys_update_name>sys_ui_list_x_138181_sbmcreate_sbm_create_null</sys_update_name>
             <sys_updated_by>ibm_ban_ta</sys_updated_by>
             <sys_updated_on>2017-12-13 23:14:47</sys_updated_on>
-            <sys_user display_value="伴 岳夫">5af144b84fb64300838982818110c701</sys_user>
+            <sys_user display_value="伴 岳夫">db0cb3164f4fc300489678e18110c75a</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -12,7 +12,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-15 03:45:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>54a9592dbb4f870092a21272dbdb75ff</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Planning</sys_name>

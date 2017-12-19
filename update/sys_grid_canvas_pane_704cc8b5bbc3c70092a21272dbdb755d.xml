@@ -3,13 +3,13 @@
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA Age Open Incidents Process">f04cc8b5bbc3c70092a21272dbdb755b</grid_canvas>
         <height>32</height>
-        <portal_widget display_value="Created 2015-06-22 12:48:01">7bfbd8f1d7f00200b96d45a3ce610351</portal_widget>
+        <portal_widget display_value="Created 2015-06-22 21:48:01">7bfbd8f1d7f00200b96d45a3ce610351</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-15 16:45:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>704cc8b5bbc3c70092a21272dbdb755d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>f04cc8b5bbc3c70092a21272dbdb755b</sys_name>

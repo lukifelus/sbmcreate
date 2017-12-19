@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-14 15:08:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d87c6a91bb0b870092a21272dbdb7541</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Glide API: properties</sys_name>

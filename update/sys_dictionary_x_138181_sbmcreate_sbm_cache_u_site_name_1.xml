@@ -10,7 +10,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>SiteName</column_label>
+        <column_label>Site Name</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,16 +48,16 @@
         <sys_created_by>ibm_ban_ta</sys_created_by>
         <sys_created_on>2017-12-17 06:55:30</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>3a785412bb830b0092a21272dbdb75a8</sys_id>
+        <sys_id>2b9905be4f870700489678e18110c73b</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>SiteName</sys_name>
+        <sys_name>Site Name</sys_name>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_dictionary_x_138181_sbmcreate_sbm_cache_u_site_name_1</sys_update_name>
-        <sys_updated_by>ibm_ban_ta</sys_updated_by>
-        <sys_updated_on>2017-12-17 06:55:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-19 00:07:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

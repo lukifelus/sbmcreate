@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-12-18 23:45:16">
+<record_update node_type="sys_portal_page" unload_date="2017-12-19 02:01:21">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -9,7 +9,7 @@
         <sys_class_name>sys_portal_page</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-15 16:40:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>412b0475bbc3c70092a21272dbdb750c</sys_id>
@@ -42,13 +42,13 @@
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">c52b0475bbc3c70092a21272dbdb750c</grid_canvas>
                         <height>10</height>
-                        <portal_widget display_value="Created 2017-12-15 16:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_widget>
+                        <portal_widget display_value="Created 2017-12-16 01:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_widget>
                         <posx>6</posx>
                         <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:15</sys_created_on>
-                        <sys_customer_update>true</sys_customer_update>
+                        <sys_customer_update>false</sys_customer_update>
                         <sys_id>829b00b5bbc3c70092a21272dbdb75a7</sys_id>
                         <sys_mod_count>4</sys_mod_count>
                         <sys_name>c52b0475bbc3c70092a21272dbdb750c</sys_name>
@@ -65,7 +65,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:15</sys_created_on>
                         <sys_id>429b00b5bbc3c70092a21272dbdb75a6</sys_id>
@@ -76,7 +76,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:15</sys_created_on>
                         <sys_id>869b00b5bbc3c70092a21272dbdb75a6</sys_id>
@@ -87,7 +87,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:15">069b00b5bbc3c70092a21272dbdb75a5</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:15</sys_created_on>
                         <sys_id>8a9b00b5bbc3c70092a21272dbdb75a5</sys_id>
@@ -113,13 +113,13 @@
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">c52b0475bbc3c70092a21272dbdb750c</grid_canvas>
                         <height>10</height>
-                        <portal_widget display_value="Created 2017-12-15 16:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_widget>
+                        <portal_widget display_value="Created 2017-12-16 01:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_widget>
                         <posx>0</posx>
                         <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:40:34</sys_created_on>
-                        <sys_customer_update>true</sys_customer_update>
+                        <sys_customer_update>false</sys_customer_update>
                         <sys_id>e13b84b5bbc3c70092a21272dbdb7521</sys_id>
                         <sys_mod_count>6</sys_mod_count>
                         <sys_name>c52b0475bbc3c70092a21272dbdb750c</sys_name>
@@ -136,7 +136,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-15 16:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:40:34</sys_created_on>
                         <sys_id>293b84b5bbc3c70092a21272dbdb7520</sys_id>
@@ -147,7 +147,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-15 16:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:40:34</sys_created_on>
                         <sys_id>2d3b84b5bbc3c70092a21272dbdb751f</sys_id>
@@ -158,7 +158,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-15 16:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:40:34">693b4c75bbc3c70092a21272dbdb7509</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:40:34</sys_created_on>
                         <sys_id>e13b84b5bbc3c70092a21272dbdb7520</sys_id>
@@ -184,13 +184,13 @@
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab">c52b0475bbc3c70092a21272dbdb750c</grid_canvas>
                         <height>10</height>
-                        <portal_widget display_value="Created 2017-12-15 16:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_widget>
+                        <portal_widget display_value="Created 2017-12-16 01:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_widget>
                         <posx>3</posx>
                         <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:04</sys_created_on>
-                        <sys_customer_update>true</sys_customer_update>
+                        <sys_customer_update>false</sys_customer_update>
                         <sys_id>238b44b5bbc3c70092a21272dbdb75e8</sys_id>
                         <sys_mod_count>5</sys_mod_count>
                         <sys_name>c52b0475bbc3c70092a21272dbdb750c</sys_name>
@@ -207,7 +207,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:04</sys_created_on>
                         <sys_id>278b44b5bbc3c70092a21272dbdb75e7</sys_id>
@@ -218,7 +218,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:04</sys_created_on>
                         <sys_id>2b8b44b5bbc3c70092a21272dbdb75e6</sys_id>
@@ -229,7 +229,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2017-12-15 16:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
+                        <portal_section display_value="Created 2017-12-16 01:42:04">a38b44b5bbc3c70092a21272dbdb75e6</portal_section>
                         <sys_created_by>ibm_yue_y</sys_created_by>
                         <sys_created_on>2017-12-15 16:42:04</sys_created_on>
                         <sys_id>ef8b44b5bbc3c70092a21272dbdb75e6</sys_id>
