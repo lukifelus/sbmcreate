@@ -53,7 +53,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_138181_sbmcreate_sbm_create" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">5d4a12254fbe0300489678e18110c786</sys_ui_form>
-            <sys_ui_section caption="Activities" display_value="Activities" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">e9f6cd61bb4f870092a21272dbdb759b</sys_ui_section>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_138181_sbmcreate_sbm_create" sys_domain="global" view="Default view">5621c1adbb0f870092a21272dbdb7506</sys_ui_section>
             <sys_updated_by>ibm_yue_y</sys_updated_by>
             <sys_updated_on>2017-12-15 02:23:09</sys_updated_on>
         </sys_ui_form_section>

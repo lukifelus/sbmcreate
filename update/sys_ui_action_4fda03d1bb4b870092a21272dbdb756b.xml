@@ -23,8 +23,8 @@
         <order>400</order>
         <script><![CDATA[function createPackage1Kick() {
 	//show a loading dialog box so that people will know that we are busy
-	showLoadingDialog();
-	alert('*TRACE* CreatePackage Start');
+// 	showLoadingDialog();
+// 	alert('*TRACE* CreatePackage Start');
 	//Set up the Server-Side function call to sending through the MID Server
 	var ga = new GlideAjax('CreatePackage1');
 	ga.addParam('sysparm_name','getRestMessage');
@@ -40,9 +40,9 @@
 	//Parses the asynchronous ajax response and show results as a dialog window
 	function parseQueryResponse(response) {
 		hideLoadingDialog();
-		var answer = response.responseXML.documentElement.getAttribute("answer");
-	    alert(answer);
-		action.setRedirectURL("x_138181_sbmcreate_sbm_cache.do?sys_id=" + current.sys_id);
+// 	    alert("CMN8700I - Production Library service completed");
+		var cache_sysid = response.responseXML.documentElement.getAttribute("answer");
+		action.setRedirectURL("x_138181_sbmcreate_sbm_cache.do?sys_id=" + cache_sysid);
 	}
 }
 ]]></script>
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4fda03d1bb4b870092a21272dbdb756b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Create Package</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -65,8 +65,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_4fda03d1bb4b870092a21272dbdb756b</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-19 00:53:48</sys_updated_on>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-20 23:45:34</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_package</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

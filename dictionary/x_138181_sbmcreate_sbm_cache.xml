@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_cache" max_length="40" name="x_138181_sbmcreate_sbm_cache" type="collection">
+    <element extends="task" label="sbm_cache" max_length="40" name="x_138181_sbmcreate_sbm_cache" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" default="ATLS" label="Application" max_length="40" name="u_application" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact_2" type="string"/>
@@ -8,8 +8,8 @@
         <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="0000" label="Install From Time" max_length="40" name="u_install_from_time_1" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="0000" label="Install From Time" max_length="40" name="u_install_from_time_2" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Install Limit Date" max_length="40" name="u_install_limit_date_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="20181222" label="Install Limit Date" max_length="40" name="u_install_limit_date_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="20181222" label="Install Limit Date" max_length="40" name="u_install_limit_date_2" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="23:59" label="Install To Time" max_length="40" name="u_install_to_time" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="2359" label="Install To Time" max_length="40" name="u_install_to_time_2" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Simple" label="Package Level" max_length="40" name="u_package_level" type="string">

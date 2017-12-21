@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>create_zmf_scr</action_name>
-        <active>true</active>
+        <active>false</active>
         <client>true</client>
         <comments/>
         <condition>current.state == '2'</condition>
@@ -19,22 +19,63 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <name>Create ZMF SCR</name>
-        <onclick>onClick()</onclick>
+        <onclick/>
         <order>100</order>
-        <script><![CDATA[function onClick() {
-		var request = new sn_ws.RESTMessageV2();
-		request.setEndPoint('https://aflacdev.service-now.com/api/now/table/incident');
-		request.setHttpMethod('POST');
+        <script><![CDATA[//function onClick() {
+//		var request = new sn_ws.RESTMessageV2();
+//		request.setEndPoint('https://aflacdev.service-now.com/api/now/table/incident');
+//		request.setHttpMethod('POST');
 	
-		var user = 'ibm_ban_t';
-		var password = 'aflacgmt';
+//		var user = 'ibm_ban_t';
+//		var password = 'aflacgmt';
 	
-		request.setBasicAut(user,password);
-		request.setRequestHeader("Accept","application/json");
+//		request.setBasicAut(user,password);
+//		request.setRequestHeader("Accept","application/json");
 		
-		var response = request.execute();
-		gs.log(response.getBody());
-}]]></script>
+//		var response = request.execute();
+//		gs.log(response.getBody());
+//}
+
+var uri = action.getGlideURI();
+		var path = uri.getFileFromPath() + '';
+		path = path.substring(0, path.length - 5) + '.do';
+
+		uri.set('sys_id', '-1');
+		path = checkWizard(uri, path);
+		if (path)
+			action.setRedirectURL(uri.toString(path));
+
+		action.setNoPop(true);
+
+		function checkWizard(uri, path) {
+			var already = uri.get('WIZARD:action');
+			if (already == 'follow')
+				return null;
+
+			var wizID = new GlideappWizardIntercept(path).get();
+			if (!wizID)
+				return path;
+
+			uri.set('sysparm_parent', wizID);
+			uri.deleteParmameter('sysparm_referring_url');
+			uri.deleteMatchingParameter('sysparm_list_');
+			uri.deleteMatchingParameter('sysparm_record_');
+			uri.deleteParmameter('sys_is_list');
+			uri.deleteParmameter('sys_is_related_list');
+			uri.deleteParmameter('sys_submitted');
+			uri.deleteParmameter('sysparm_checked_items');
+			uri.deleteParmameter('sysparm_ref_list_query');
+			uri.deleteParmameter('sysparm_current_row');
+
+			uri.set('sysparm_referring_url', uri.toString());
+			uri.deleteMatchingParameter('fancy.');
+			uri.deleteMatchingParameter('sys_rownum');
+			uri.deleteMatchingParameter('sysparm_encoded');
+			uri.deleteMatchingParameter('sysparm_query_encoded');
+			uri.deleteParmameter('sysparm_refer');
+
+			return 'wizard_view.do';
+		}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -42,11 +83,11 @@
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-04 01:41:18</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71a294464f3a4300489678e18110c714</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Create ZMF SCR</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -55,7 +96,7 @@
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_71a294464f3a4300489678e18110c714</sys_update_name>
         <sys_updated_by>ibm_yue_y</sys_updated_by>
-        <sys_updated_on>2017-12-13 05:41:44</sys_updated_on>
+        <sys_updated_on>2017-12-19 14:32:06</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_create</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

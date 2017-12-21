@@ -23,7 +23,7 @@
         <order>-100</order>
         <script><![CDATA[action.setRedirectURL(current);
 current.state = '2';
-//answer = current.update();
+answer = current.update();
 //if(current.canCreate()&&current.isNewRecord()){
 	answer = current.insert();
 	gs.include('ActionUtils');
@@ -47,11 +47,11 @@ current.state = '2';
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>ibm_yue_y</sys_created_by>
         <sys_created_on>2017-12-13 07:25:39</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0c877b8bb8b470092a21272dbdb7586</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>OK</sys_name>
         <sys_overrides/>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
@@ -60,7 +60,7 @@ current.state = '2';
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_ui_action_c0c877b8bb8b470092a21272dbdb7586</sys_update_name>
         <sys_updated_by>ibm_yue_y</sys_updated_by>
-        <sys_updated_on>2017-12-15 15:42:42</sys_updated_on>
+        <sys_updated_on>2017-12-20 02:07:48</sys_updated_on>
         <table>x_138181_sbmcreate_sbm_create</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
