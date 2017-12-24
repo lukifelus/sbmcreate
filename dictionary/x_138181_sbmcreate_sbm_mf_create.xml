@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="sbm_mf_create" max_length="40" name="x_138181_sbmcreate_sbm_mf_create" sizeclass="30" type="collection">
+    <element audit="true" extends="task" label="sbm_mf_create" max_length="40" name="x_138181_sbmcreate_sbm_mf_create" sizeclass="37" type="collection">
         <element label="Title" max_length="40" name="title" type="string"/>
         <element label="構成管理担当" max_length="32" name="u_cm" read_only="true" reference="sys_user" type="reference"/>
         <element label="構成管理担当(サブ)" max_length="32" name="u_cmsub" read_only="true" reference="sys_user" type="reference"/>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	alert('start!');
+	var buttons = document.getElementsByClassName("form_action_button action_context btn btn-default");
+	alert('buttons defination ok!');
+	alert('length is ' + buttons.length);
+	var idx=0;
+       for (var i = 0; i < buttons.length; i++) {
+            if(buttons[i].id == "sysverb_insert") {
+				alert('find!');
+                if(idx==1) buttons[i].hide();
+	  else idx=idx+1;
+            }
+       }
+}]]></script_true>
+        <set_values/>
+        <short_description>hide buttom ui action</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>ibm_yue_y</sys_created_by>
+        <sys_created_on>2017-12-22 01:46:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50def0f74f478f00838982818110c7d2</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>hide buttom ui action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_ui_policy_50def0f74f478f00838982818110c7d2</sys_update_name>
+        <sys_updated_by>ibm_yue_y</sys_updated_by>
+        <sys_updated_on>2017-12-23 08:11:49</sys_updated_on>
+        <table>x_138181_sbmcreate_sbm_create</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

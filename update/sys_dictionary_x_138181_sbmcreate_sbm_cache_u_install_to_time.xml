@@ -13,7 +13,7 @@
         <column_label>Install To Time</column_label>
         <comments/>
         <create_roles/>
-        <default_value>23:59</default_value>
+        <default_value>2359</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -47,17 +47,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ibm_ban_ta</sys_created_by>
         <sys_created_on>2017-12-17 06:55:30</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>4469e1babb834b0092a21272dbdb758e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Install To Time</sys_name>
         <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
         <sys_update_name>sys_dictionary_x_138181_sbmcreate_sbm_cache_u_install_to_time</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-12-19 02:06:13</sys_updated_on>
+        <sys_updated_by>ibm_ban_ta</sys_updated_by>
+        <sys_updated_on>2017-12-21 07:03:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

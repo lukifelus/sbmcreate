@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="sbm_package" max_length="40" name="x_138181_sbmcreate_sbm_package" sizeclass="14" type="collection">
+    <element extends="task" label="sbm_package" max_length="40" name="x_138181_sbmcreate_sbm_package" sizeclass="21" type="collection">
         <element label="ChangeMan Login" mandatory="true" max_length="40" name="changeman_login" type="string"/>
         <element label="ChangeMan Package ID" max_length="40" name="changeman_package_id" type="string"/>
         <element label="ChangeMan Password" mandatory="true" max_length="40" name="changeman_password" type="password"/>
@@ -14,7 +14,7 @@
         <element attributes="edge_encryption_enabled=true" label="Backup Contact" max_length="40" name="u_backup_contact1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Backup Phone" max_length="40" name="u_backup_phone1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ChangeMan Login" mandatory="true" max_length="40" name="u_change_man_login" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="ChangeMan Pckage Id" mandatory="true" max_length="40" name="u_change_man_package_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ChangeMan Package Id" mandatory="true" max_length="40" name="u_change_man_package_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="ChangeMan Password" mandatory="true" max_length="40" name="u_change_man_password" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="CMNU" label="ChangeMan Server" mandatory="true" max_length="40" name="u_change_man_server" type="string">
             <choice>
