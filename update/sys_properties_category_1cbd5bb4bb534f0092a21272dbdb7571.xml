@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>SBMcreate System Property</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>ibm_yue_y</sys_created_by>
+        <sys_created_on>2017-12-25 15:42:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1cbd5bb4bb534f0092a21272dbdb7571</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SBMcreate System Property</sys_name>
+        <sys_package display_value="SBMcreate" source="x_138181_sbmcreate">8c098a014f320300489678e18110c751</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SBMcreate">8c098a014f320300489678e18110c751</sys_scope>
+        <sys_update_name>sys_properties_category_1cbd5bb4bb534f0092a21272dbdb7571</sys_update_name>
+        <sys_updated_by>ibm_yue_y</sys_updated_by>
+        <sys_updated_on>2017-12-25 15:42:34</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=1cbd5bb4bb534f0092a21272dbdb7571"/>
+</record_update>
